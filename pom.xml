@@ -203,14 +203,14 @@
 
   <distributionManagement>
 		<repository>
-			<id>spring-release</id>
-			<name>spring-release</name>
-			<url>http://43.205.212.86:8081/repository/spring-release/</url>
+			<id>spring-petclinc-release</id>
+			<name>spring-petclinc-release</name>
+			<url>http://13.233.116.78:8081/repository/spring-petclinc-release/</url>
 		</repository>
 		<snapshotRepository>
-			<id>spring-snapshot</id>
-			<name>spring-snapshot</name>
-			<url>http://43.205.212.86:8081/repository/spring-snapshot/</url>
+			<id>spring-petclinc-snapshot</id>
+			<name>spring-petclinc-snapshot</name>
+			<url>http://13.233.116.78:8081/repository/spring-petclinc-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
