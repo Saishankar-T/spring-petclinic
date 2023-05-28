@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-ADD target/sentiment-analysis-web-0.0.1.jar /
+ADD target/spring-petclinic-2.7.0-SNAPSHOT.jar /
 EXPOSE 8088
-CMD ["java", "-jar", "sentiment-analysis-web-0.0.1.jar"]
+CMD ["java", "-jar", "spring-petclinic-2.7.0-SNAPSHOT.jarr"]
 
