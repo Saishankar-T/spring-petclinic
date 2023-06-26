@@ -18,7 +18,7 @@ pipeline {
                 sh 'sleep 20'
             }
         }
-        stage('pushing docker image o docker hub'){
+        stage('pushing docker image to docker hub'){
             steps{
                 sh 'docker push saishankar237/spring-petclinic:${version_tag}'
             }
