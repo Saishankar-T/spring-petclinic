@@ -9,7 +9,7 @@ pipeline {
         }
         stage('building docker image') {
             steps {
-                sh 'docker build -t spring-petclinic:${env.version_tag} . '
+                sh 'docker build -t spring-petclinic:${env.version_tag} .'
                 sh 'docker run -d --name spring-petclinic spring-petclinic:${env.version_tag}'
                 sh 'sleep 20'
                 sh 'docker ps -a'
